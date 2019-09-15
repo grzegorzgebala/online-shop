@@ -5,7 +5,7 @@ import logo from '../logo.svg';
 export default class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
+            <nav className="navbar navbar-expand-sm navbar-dark px-sm-5">
                 <Link to="/">
                     <img src={logo} alt="store" className="navbar-brand" />
                 </Link>
@@ -16,14 +16,6 @@ export default class Navbar extends Component {
                         </Link>
                     </li>
                 </ul>
-                <Link to="/cart" className="ml-auto">
-                    <button type="button" class="btn btn-warning">
-                        <span className="mr-2">
-                        <i className="fas fa-cart-plus" />
-                        </span>
-                        my cart
-                    </button>
-                </Link>
             </nav>
         )
     }

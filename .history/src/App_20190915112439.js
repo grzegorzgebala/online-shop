@@ -12,12 +12,10 @@ function App() {
   return (
     <React.Fragment>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={ProductList} />
-        <Route path="/Details" component={Details} />
-        <Route path="/Cart" component={Cart} />
-        <Route component={Default} />
-      </Switch>
+      <ProductList />
+      <Details />
+      <Cart />
+      <Default />
     </React.Fragment>
   );
 }

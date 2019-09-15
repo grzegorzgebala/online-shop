@@ -9,7 +9,7 @@ body {
   background: var(--mainWhite) !important;
 }
 
-/* button {
+button {
   text-transform: capitalize;
   font-size: 1.4rem;
   background: transparent;
@@ -29,4 +29,4 @@ button:hover {
 
 button:focus {
   outline: none;
-} */
+}
